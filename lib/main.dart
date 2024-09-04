@@ -33,7 +33,7 @@ class _IntroPgState extends State<IntroPg> {
       body: Center(
         child: Lottie.asset("assets/images/lottiecart.json"),
       ),
-      floatingActionButton:  Container(width: 100,
+      floatingActionButton:  SizedBox(width: 100,
         child: FloatingActionButton(
           onPressed: (){
             Navigator.push(context, MaterialPageRoute(builder: (context) => const LoginPg(),));
